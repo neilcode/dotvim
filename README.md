@@ -5,8 +5,9 @@
 ```bash
 git clone http://github.com/FundingCircle/dotvim.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
-cd ~/.vim/ && git submodule init && git submodule update
 ```
+
+Now open Vim and run `:BundleInstall`
 
 ## Custom Commands
 
@@ -15,15 +16,19 @@ cd ~/.vim/ && git submodule init && git submodule update
 * **i**: goes from normal mode to insert mode.
 * **ii**: goes to normal mode from insert mode.
 * **<leader>cf**: copies the current file name into the clipboard
-* **<leader>R**: pastes last contents of what was yanked regardless of what was deleted after
+* **<leader>P**: pastes last contents of what was yanked regardless of what was deleted after
 * **<ctrl>c**: (from visual mode) copies the highlighted text into the clipboard
 * **<leader>v**: vertical split
 * **<leader>h**: horizontal split
 * **<ctrl>j/k/h/l**: moves to split in desired direction
 * **<ctrl>p**: opens fuzzy file finder
-* **<leader>nt**: toggles nerdtree
+* **<leader>nt**: toggles Nerdtree
 * **<leader>pt**: toggles paste for better clipboard paste formatting
     * Use this before and after pasting formatted code into the current buffer
+* **<leader>t**: Run RSpec tests in current file.
+    * This will also run the last test run so you can use this in a different file than the test.
+* **<leader>s**: Run RSpec tests in current context.
+    * This will also run the last test run so you can use this in a different file than the test.
 
 ## Bundles
 
@@ -41,11 +46,11 @@ cd ~/.vim/ && git submodule init && git submodule update
 * [nerdtree](https://github.com/scrooloose/nerdtree) puts a directory tree on the left side of the screen.  Press `\` to open it at your project root, or `Shift-\` to open it with the current file selected.  You can press `m` to move, delete, or create files.  Press `?` inside the tree to get more help.
     * **I**: Shows/Hides hidden files
 * [vim-rails](https://github.com/tpope/vim-rails) lets `gf` and `:Rextract` work on partials, highlights Rails functions.
-* [rspec](https://github.com/thoughtbot/vim-rspec.git) Run Rspec spec from Vim
 * [ruby-matchit](https://github.com/vim-scripts/ruby-matchit.git) 'Matchit' for Ruby.
 * [supertab](https://github.com/ervandew/supertab) lets you press Tab after Ctrl-P or Ctrl-N to cycle through completion options.
 * [vim-surround](https://github.com/tpope/vim-surround) helps add/remove/change surround parentheses, quotes, and XML tags.  Inside of `"yolokitten"`, type `cs"'` to switch the surround double quotes to single quotes.  `t` can generally be used to refer to XML tags, so inside of `<tag>Hello</tag>` you can do `cit` to modify the word "Hello."  To add quotes around something, you can use the command `ys` followed by a motion and the character to surround it with.  For instance, inside of "hello", typing `ysiw(` will change it to "( hello )".
 * [syntastic](https://github.com/scrooloose/syntastic) runs your compiler or interpreter and displays syntax errors in vim.  A `>>` in the gutter means there is an error on that line, you can mouse over it for more details.
+* [vroom](https://github.com/thoughtbot/vim-rspec.gi://github.com/skalnik/vim-vroom) Run Rspec specs from Vim
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows with `<C-w>o`.  You can restore all the closed windows with the same command.  Useful with `:tabo` to close everything but what you're working on.
 
 

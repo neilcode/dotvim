@@ -5,6 +5,8 @@
 ```bash
 git clone http://github.com/FundingCircle/dotvim.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
+cd ~/.vim
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 ```
 
 Now open Vim and run `:BundleInstall`

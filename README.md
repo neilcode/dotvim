@@ -13,21 +13,21 @@ Now open Vim and run `:BundleInstall`
 
 **NB**: \<leader\> is defined as *,* (comma).
 
-* **i**: goes from normal mode to insert mode.
-* **ii**: goes to normal mode from insert mode.
-* **<leader>cf**: copies the current file name into the clipboard
-* **<leader>P**: pastes last contents of what was yanked regardless of what was deleted after
-* **<ctrl>c**: (from visual mode) copies the highlighted text into the clipboard
-* **<leader>v**: vertical split
-* **<leader>h**: horizontal split
-* **<ctrl>j/k/h/l**: moves to split in desired direction
-* **<ctrl>p**: opens fuzzy file finder
-* **<leader>nt**: toggles Nerdtree
-* **<leader>pt**: toggles paste for better clipboard paste formatting
+* i: goes from normal mode to insert mode.
+* ii: goes to normal mode from insert mode.
+* \<leader\>cf: copies the current file name into the clipboard
+* \<leader\>P: pastes last contents of what was yanked regardless of what was deleted after
+* \<ctrl\>c: (from visual mode) copies the highlighted text into the clipboard
+* \<leader\>v: vertical split
+* \<leader\>h: horizontal split
+* \<ctrl\>j/k/h/l: moves to split in desired direction
+* \<ctrl\>p: opens fuzzy file finder
+* \<leader\>nt: toggles Nerdtree
+* \<leader\>pt: toggles paste for better clipboard paste formatting
     * Use this before and after pasting formatted code into the current buffer
-* **<leader>t**: Run RSpec tests in current file.
+* \<leader\>t: Run RSpec tests in current file.
     * This will also run the last test run so you can use this in a different file than the test.
-* **<leader>s**: Run RSpec tests in current context.
+* \<leader\>s: Run RSpec tests in current context.
     * This will also run the last test run so you can use this in a different file than the test.
 
 ## Bundles
@@ -52,5 +52,3 @@ Now open Vim and run `:BundleInstall`
 * [syntastic](https://github.com/scrooloose/syntastic) runs your compiler or interpreter and displays syntax errors in vim.  A `>>` in the gutter means there is an error on that line, you can mouse over it for more details.
 * [vroom](https://github.com/thoughtbot/vim-rspec.gi://github.com/skalnik/vim-vroom) Run Rspec specs from Vim
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows with `<C-w>o`.  You can restore all the closed windows with the same command.  Useful with `:tabo` to close everything but what you're working on.
-
-

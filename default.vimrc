@@ -50,9 +50,20 @@ augroup vimrc_autocmds
   autocmd BufEnter * match OverLength /\%100v.*/
 augroup END
 
-set autoread " Reload files changed outside vim
+" Reload files changed outside vim
+set autoread
 
-set autowrite " Automatically :write before running commands
+" Automatically :write before running commands
+set autowrite
+
+" Remove trailing whitespace when manually saving a buffer
+fun! <SID>StripTrailingWhitespaces()
+  let l = line(".")
+  let c = col(".")
+  %s/\s\+$//e
+  call cursor(l, c)
+endfun
+autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 
 " Press i to enter insert mode, ii to go back to normal mode
 imap ii <esc>

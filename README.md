@@ -90,3 +90,20 @@ specs from Vim.
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows
 with `<C-w>o`. You can restore all the closed windows with the same command. Useful with `:tabo` to
 close everything but what you're working on.
+
+## Clojure
+
+* \<leader\>E: Evaluate the current file in the REPL. This also starts the REPL if you're in a
+leiningen project.
+
+### Plugins
+
+* [classpath](https://github.com/tpope/vim-classpath) This plugin sets the 'path' for JVM languages
+to match the class path of your current Java project.
+* [clojure-static](https://github.com/guns/vim-clojure-static) Clojure runtime files.
+* [dispatch](://github.com/tpope/vim-dispatch) Kick off builds and test suites using one of several
+asynchronous adapters, and when the job completes, errors will be loaded and parsed automatically.
+* [fireplace](https://github.com/tpope/vim-fireplace) Connect to a REPL within Vim.
+* [leiningen](https://github.com/tpope/vim-leiningen) Static Vim support for Leiningen.
+* [paredit](https://github.com/vim-scripts/paredit.vim) Performs structured editing of Lisp
+S-expressions in Vim.

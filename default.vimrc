@@ -162,14 +162,14 @@ let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 
 " Open up a git grep line, with a quote started for the search
-nnoremap <leader>ag :Ag 
+nnoremap <leader>ag :Ag
 
 " Toggle pasting to preserve format when pasting from clipboard into buffer
 nnoremap <leader>pt :set invpaste paste?<cr>
 set pastetoggle=<leader>pt
 set showmode
 
-" Run RSpec tests
+" Run RSpec tests with Vroom
 map <unique> <leader>t :VroomRunTestFile<CR>
 map <unique> <leader>s :VroomRunNearestTest<CR>
 

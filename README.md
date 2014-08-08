@@ -85,7 +85,7 @@ instance, inside of "hello", typing `ysiw(` will change it to "( hello )".
 * [syntastic](https://github.com/scrooloose/syntastic) runs your compiler or interpreter and
 displays syntax errors in vim. A `>>` in the gutter means there is an error on that line, you can
 mouse over it for more details.
-* [vroom](https://github.com/thoughtbot/vim-rspec.gi://github.com/skalnik/vim-vroom) Run Rspec
+* [vroom](https://github.com/skalnik/vim-vroom) Run Rspec
 specs from Vim.
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows
 with `<C-w>o`. You can restore all the closed windows with the same command. Useful with `:tabo` to

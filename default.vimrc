@@ -162,7 +162,7 @@ let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 
 " Open up a git grep line, with a quote started for the search
-nnoremap <leader>ag :Ag
+nnoremap <leader>ag :Ag 
 
 " Toggle pasting to preserve format when pasting from clipboard into buffer
 nnoremap <leader>pt :set invpaste paste?<cr>

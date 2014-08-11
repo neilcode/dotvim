@@ -90,8 +90,13 @@ specs from Vim.
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows
 with `<C-w>o`. You can restore all the closed windows with the same command. Useful with `:tabo` to
 close everything but what you're working on.
-* [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) True Sublime Text style
-multiple selections for Vim.
+* [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) Sublime Text style
+multiple selections for Vim. Use `Ctrl+n` in normal mode to select the current word and enter
+visual mode. Press `Ctrl+n` in visual mode and a cursor will be added to the next occurrence of
+the current selection. Use `Ctrl+p` to remove the last cursor, `Ctrl+x` to remove the last
+cursor and skip to the next cursor location. Simple edit commands like `c` or `d` will work just
+fine, multiple key commands like `ciw` are not supported yet.
+
 
 ## Clojure
 

@@ -96,7 +96,8 @@ visual mode. Press `Ctrl+n` in visual mode and a cursor will be added to the nex
 the current selection. Use `Ctrl+p` to remove the last cursor, `Ctrl+x` to remove the last
 cursor and skip to the next cursor location. Simple edit commands like `c` or `d` will work just
 fine, multiple key commands like `ciw` are not supported yet.
-
+* [vim-blockle](https://github.com/jgdavey/vim-blockle) lets you change a `do..end` into a `{..}` by pressing `b` with the cursor on part of the block.
+* [vim-airline](https://github.com/bling/vim-airline) sets the status bar and makes it more configurable and useful by showing things like the current Git branch, etc.
 
 ## Clojure
 

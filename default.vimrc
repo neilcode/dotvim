@@ -43,6 +43,7 @@ set nowb
 set ttyfast
 set ttyscroll=3
 set lazyredraw
+set re=1
 
 " Highlight after 100 characters
 augroup vimrc_autocmds

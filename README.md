@@ -115,3 +115,4 @@ asynchronous adapters, and when the job completes, errors will be loaded and par
 * [leiningen](https://github.com/tpope/vim-leiningen) Static Vim support for Leiningen.
 * [paredit](https://github.com/vim-scripts/paredit.vim) Performs structured editing of Lisp
 S-expressions in Vim.
+* [rainbow_parentheses](https://github.com/kien/rainbow_parentheses.vim) Colorizes parenthesis pairs to see them more easily.

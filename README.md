@@ -85,7 +85,7 @@ instance, inside of "hello", typing `ysiw(` will change it to "( hello )".
 * [syntastic](https://github.com/scrooloose/syntastic) runs your compiler or interpreter and
 displays syntax errors in vim. A `>>` in the gutter means there is an error on that line, you can
 mouse over it for more details.
-* [vroom](https://github.com/thoughtbot/vim-rspec.gi://github.com/skalnik/vim-vroom) Run Rspec
+* [vroom](https://github.com/skalnik/vim-vroom) Run Rspec
 specs from Vim.
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows
 with `<C-w>o`. You can restore all the closed windows with the same command. Useful with `:tabo` to
@@ -96,7 +96,8 @@ visual mode. Press `Ctrl+n` in visual mode and a cursor will be added to the nex
 the current selection. Use `Ctrl+p` to remove the last cursor, `Ctrl+x` to remove the last
 cursor and skip to the next cursor location. Simple edit commands like `c` or `d` will work just
 fine, multiple key commands like `ciw` are not supported yet.
-
+* [vim-blockle](https://github.com/jgdavey/vim-blockle) lets you change a `do..end` into a `{..}` by pressing `b` with the cursor on part of the block.
+* [vim-airline](https://github.com/bling/vim-airline) sets the status bar and makes it more configurable and useful by showing things like the current Git branch, etc.
 
 ## Clojure
 

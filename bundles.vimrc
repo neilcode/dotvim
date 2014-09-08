@@ -34,6 +34,9 @@ Plugin 'ZoomWin'
 " Git
 Plugin 'tpope/vim-fugitive'
 
+" Syntax
+Plugin 'ekalinin/Dockerfile.vim'
+
 " Ruby
 Plugin 'tpope/vim-rails'
 Plugin 'skalnik/vim-vroom'

@@ -1,29 +1,44 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
+if !isdirectory(expand("~/.vim/bundle/Vundle.vim/.git"))
+  !git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+endif
 
-" let Vundle manage Vundle
-Bundle 'gmarik/vundle'
+set runtimepath+=~/.vim/bundle/Vundle.vim
 
-Bundle 'mileszs/ack.vim'
-Bundle 'rking/ag.vim'
-Bundle '907th/vim-auto-save'
-Bundle 'kien/ctrlp.vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'claco/jasmine.vim'
-Bundle 'rgarver/Kwbd.vim'
-Bundle 'embear/vim-localvimrc'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/nerdtree'
-Bundle 'tpope/vim-rails'
-Bundle 'ruby-matchit'
-Bundle 'ervandew/supertab'
-Bundle 'tpope/vim-surround'
-Bundle 'scrooloose/syntastic'
-Bundle 'skalnik/vim-vroom'
-Bundle 'ZoomWin'
-Bundle 'terryma/vim-multiple-cursors'
-Bundle 'bling/vim-airline'
-Bundle 'jgdavey/vim-blockle'
+call vundle#begin()
+
+Plugin 'gmarik/vundle'
+
+" Files
+Plugin 'mileszs/ack.vim'
+Plugin 'rking/ag.vim'
+
+" Text
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'ervandew/supertab'
+Plugin 'tpope/vim-surround'
+Plugin 'scrooloose/syntastic'
+Plugin 'terryma/vim-multiple-cursors'
+
+" Utilities
+Plugin '907th/vim-auto-save'
+Plugin 'kien/ctrlp.vim'
+Plugin 'rgarver/Kwbd.vim'
+Plugin 'embear/vim-localvimrc'
+Plugin 'scrooloose/nerdtree'
+Plugin 'bling/vim-airline'
+Plugin 'ZoomWin'
+
+" Git
+Plugin 'tpope/vim-fugitive'
+
+" Ruby
+Plugin 'tpope/vim-rails'
+Plugin 'skalnik/vim-vroom'
+Plugin 'jgdavey/vim-blockle'
+Plugin 'ruby-matchit'
+
+call vundle#end()
+filetype plugin indent on

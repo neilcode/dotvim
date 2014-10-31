@@ -1,6 +1,6 @@
-Bundle 'tpope/vim-classpath'
 Bundle 'tpope/vim-dispatch'
 Bundle 'guns/vim-clojure-static'
+Bundle 'guns/vim-clojure-highlight'
 Bundle 'tpope/vim-fireplace'
 Bundle 'tpope/vim-leiningen'
 Bundle 'paredit.vim'

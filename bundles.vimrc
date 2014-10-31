@@ -43,5 +43,7 @@ Plugin 'skalnik/vim-vroom'
 Plugin 'jgdavey/vim-blockle'
 Plugin 'ruby-matchit'
 
+source ~/.vim/bundles-clojure.vimrc
+
 call vundle#end()
 filetype plugin indent on

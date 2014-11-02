@@ -31,6 +31,8 @@ Now open Vim and run `:BundleInstall`
     * This will also run the last test run so you can use this in a different file than the test.
 * \<leader\>s: Run RSpec tests in current context.
     * This will also run the last test run so you can use this in a different file than the test.
+* \<leader\>rt: ("re-tag") generates ctags for the current project.
+* \<leader\>lt: ("list tags") toggles the tag list for the current project.
 
 ## Other Additions
 
@@ -85,6 +87,8 @@ instance, inside of "hello", typing `ysiw(` will change it to "( hello )".
 * [syntastic](https://github.com/scrooloose/syntastic) runs your compiler or interpreter and
 displays syntax errors in vim. A `>>` in the gutter means there is an error on that line, you can
 mouse over it for more details.
+* [taglist](https://github.com/vim-scripts/taglist.vim) view generated tags using <leader>lt
+("list tags").
 * [vroom](https://github.com/skalnik/vim-vroom) Run Rspec
 specs from Vim.
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows

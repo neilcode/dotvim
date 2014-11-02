@@ -131,7 +131,9 @@ nnoremap <silent> <leader>bd :Kwbd<CR>
 let g:auto_save = 1
 
 " CTags
-map <leader>rt :!ctags --extra=+f --exclude=tmp --exclude=node_modules -Rf.git/tags * <CR><CR>
+map <leader>rt :!ctags --extra=+f --exclude=tmp --exclude=node_modules -R * <CR><CR>
+map <leader>lt :TlistToggle<CR>
+let Tlist_Use_Right_Window = 1
 
 " Exclude Javascript files in :Rtags via rails.vim due to warnings when parsing
 let g:Tlist_Ctags_Cmd="ctags --exclude='*.js'"

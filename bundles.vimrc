@@ -23,12 +23,13 @@ Plugin 'scrooloose/syntastic'
 Plugin 'terryma/vim-multiple-cursors'
 
 " Utilities
+Plugin 'bling/vim-airline'
 Plugin '907th/vim-auto-save'
 Plugin 'kien/ctrlp.vim'
 Plugin 'rgarver/Kwbd.vim'
 Plugin 'embear/vim-localvimrc'
 Plugin 'scrooloose/nerdtree'
-Plugin 'bling/vim-airline'
+Plugin 'taglist.vim'
 Plugin 'ZoomWin'
 
 " Git

@@ -52,3 +52,5 @@ endfunction
 autocmd BufRead *.clj nnoremap <buffer> <leader>t :call RunTestFromFile()<CR>
 autocmd BufRead *_spec.clj,*_test.clj nnoremap <buffer> <leader>t :call RunTestWithReload()<CR>
 autocmd BufWritePre *.clj :call s:AutoReload()
+
+let tlist_clojure_settings = 'lisp;f:function'

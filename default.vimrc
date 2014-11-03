@@ -120,6 +120,7 @@ endif
 nnoremap <silent> <C-\> :NERDTreeFind<CR>
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
 map <leader>nt :NERDTreeToggle<CR>
+map <leader>nf :NERDTreeFind<CR>
 
 " ZoomWin configuration
 map <leader><leader> :ZoomWin<CR>

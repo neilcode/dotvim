@@ -37,12 +37,16 @@ Plugin 'tpope/vim-fugitive'
 
 " Syntax
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'jelera/vim-javascript-syntax'
 
 " Ruby
 Plugin 'tpope/vim-rails'
 Plugin 'skalnik/vim-vroom'
 Plugin 'jgdavey/vim-blockle'
 Plugin 'ruby-matchit'
+
+" Javascript
+Plugin 'pangloss/vim-javascript'
 
 source ~/.vim/bundles-clojure.vimrc
 

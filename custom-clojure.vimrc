@@ -21,35 +21,10 @@ function! RunTestWithReload()
   %Eval
 endfunction
 
-" Reload implementation, find matching test file, open and eval test
-function! RunTestFromFile()
-  Require
-
-  let directory = "spec"
-  if !isdirectory(directory)
-    let directory = "test"
-    if !isdirectory(directory)
-      echom 'No test directories exist'
-      return
-    endif
-  endif
-
-  let path = directory . '/' . expand("%:h:t") . '/' . expand("%:t:r") . '_' . directory . '.clj'
-  if !exists(path)
-    echom 'Test file does not exist ' . path
-    return
-  endif
-
-  execute 'vsplit ' . path
-  %Eval
-  wincmd l
-endfunction
-
 function! s:AutoReload()
   Require
 endfunction
 
-autocmd BufRead *.clj nnoremap <buffer> <leader>t :call RunTestFromFile()<CR>
 autocmd BufRead *_spec.clj,*_test.clj nnoremap <buffer> <leader>t :call RunTestWithReload()<CR>
 autocmd BufWritePre *.clj :call s:AutoReload()
 

@@ -175,6 +175,9 @@ nnoremap <leader>pt :set invpaste paste?<cr>
 set pastetoggle=<leader>pt
 set showmode
 
+nnoremap <leader>mo :MarkedOpen<cr>
+nnoremap <leader>mq :MarkedQuit<cr>
+
 " Run RSpec tests with Vroom
 nnoremap <unique> <leader>t :VroomRunTestFile<CR>
 map <unique> <leader>s :VroomRunNearestTest<CR>

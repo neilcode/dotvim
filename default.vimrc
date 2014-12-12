@@ -68,9 +68,6 @@ fun! <SID>StripTrailingWhitespaces()
 endfun
 autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 
-" Press i to enter insert mode, ii to go back to normal mode
-imap ii <esc>
-
 " Copy current filename into system clipboard
 nnoremap <silent> <leader>cf :let @* = expand("%:~")<CR>
 

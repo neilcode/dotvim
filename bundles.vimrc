@@ -21,6 +21,7 @@ Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'tpope/vim-abolish'
 
 " Utilities
 Plugin 'bling/vim-airline'
@@ -37,7 +38,6 @@ Plugin 'tpope/vim-fugitive'
 
 " Syntax
 Plugin 'ekalinin/Dockerfile.vim'
-Plugin 'jelera/vim-javascript-syntax'
 
 " Ruby
 Plugin 'tpope/vim-rails'
@@ -45,10 +45,8 @@ Plugin 'skalnik/vim-vroom'
 Plugin 'jgdavey/vim-blockle'
 Plugin 'ruby-matchit'
 
-" Javascript
-Plugin 'pangloss/vim-javascript'
-
 source ~/.vim/bundles-clojure.vimrc
+source ~/.vim/bundles-javascript.vimrc
 
 call vundle#end()
 filetype plugin indent on

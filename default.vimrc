@@ -47,6 +47,12 @@ set ttyscroll=3
 set lazyredraw
 set re=1
 
+" Disable jsDoc trying to steal <C-l>
+let g:jsdoc_default_mapping = 0
+if !hasmapto('<Plug>(jsdoc)')
+  nnoremap <silent> <leader>d :call jsdoc#insert()<CR>
+endif
+
 " Highlight after 100 characters
 augroup vimrc_autocmds
   autocmd BufEnter * highlight OverLength ctermfg=red guibg=#592929

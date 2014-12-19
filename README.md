@@ -104,7 +104,15 @@ fine, multiple key commands like `ciw` are not supported yet.
 * [vim-airline](https://github.com/bling/vim-airline) sets the status bar and makes it more configurable and useful by showing things like the current Git branch, etc.
 * [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax) JS syntax highlighting.
 * [vim-javascript](https://github.com/pangloss/vim-javascript) More JS syntax and indent plugins.
-
+* [vim-abolish](https://github.com/tpope/vim-abolish.git) Easily search for, substitute, and abbreviate multiple variants of a word
+  * `crc`: change word to camel case (fooBar)
+  * `crs`: change word to snake case (foo_bar)
+  * `crm`: change word to mixed case (FooBar)
+  * `cru`: change word to upper case (FOO_BAR)
+  * `cr-`: change word to dash case (foo-bar)
+  * `cr.`: change word to dash case (foo.bar)
+* [vim-jsdoc](https://github.com/heavenshell/vim-jsdoc.git) Generate JsDoc to your JavaScript code.
+  * `<leader>d`: Insert JsDoc.
 
 ## Clojure
 

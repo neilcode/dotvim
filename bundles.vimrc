@@ -25,7 +25,6 @@ Plugin 'tpope/vim-abolish'
 
 " Utilities
 Plugin 'bling/vim-airline'
-Plugin '907th/vim-auto-save'
 Plugin 'kien/ctrlp.vim'
 Plugin 'rgarver/Kwbd.vim'
 Plugin 'embear/vim-localvimrc'

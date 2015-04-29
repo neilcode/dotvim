@@ -131,9 +131,6 @@ map <leader><leader> :ZoomWin<CR>
 " Delete buffer without closing window
 nnoremap <silent> <leader>bd :Kwbd<CR>
 
-" enable AutoSave on Vim startup
-let g:auto_save = 1
-
 " CTags
 map <leader>rt :!ctags --extra=+f --exclude=tmp --exclude=node_modules -R * <CR><CR>
 map <leader>lt :TlistToggle<CR>

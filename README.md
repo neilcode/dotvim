@@ -36,8 +36,6 @@ Now open Vim and run `:BundleInstall`
 
 ## Other Additions
 
-* Vim will autosave after every keystroke. This will not trigger syntax highlighting and other
-events looking at the BufWrite autocommand as those will still require manually saving.
 * Manually saving a buffer will remove trailing whitespace automatically. Note that this should not
 be run on the ~/.vim/vimrc file because there is a required trailing whitespace character.
 

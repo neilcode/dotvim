@@ -9,7 +9,7 @@ set runtimepath+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 
-Plugin 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 " Files
 Plugin 'mileszs/ack.vim'

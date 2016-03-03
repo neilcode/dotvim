@@ -45,7 +45,6 @@ set nowb
 set ttyfast
 set ttyscroll=3
 set lazyredraw
-set re=1
 
 " Disable jsDoc trying to steal <C-l>
 let g:jsdoc_default_mapping = 0

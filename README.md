@@ -3,7 +3,7 @@
 ## Instructions
 
 ```bash
-git clone http://github.com/FundingCircle/dotvim.git ~/.vim
+git clone http://github.com/neilcode/dotvim.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 cd ~/.vim
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle

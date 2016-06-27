@@ -22,6 +22,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-abolish'
+Plugin 'luochen1990/rainbow'
 
 " Utilities
 Plugin 'bling/vim-airline'

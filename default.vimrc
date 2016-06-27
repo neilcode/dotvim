@@ -174,6 +174,9 @@ nnoremap <leader>pt :set invpaste paste?<cr>
 set pastetoggle=<leader>pt
 set showmode
 
+" Turn Rainbow Parenthesis on (luochen1990/rainbow.vim)
+let g:rainbow_active = 1
+
 " Run RSpec tests with Vroom
 nnoremap <unique> <leader>t :VroomRunTestFile<CR>
 map <unique> <leader>s :VroomRunNearestTest<CR>
